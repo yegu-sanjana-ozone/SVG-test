@@ -24,7 +24,7 @@ metadata:
   annotations:
     ozone-in2tive-ai/application: 62da7d22a8657d25301f57c4
 spec:
-  replicas: 3
+  replicas: 10
   selector:
     matchLabels:
       app: ozone-argo-111
@@ -39,7 +39,7 @@ spec:
         - name: ozone-argo-111-registry-secret
       containers:
       - name: ozone-argo-111
-        image: gcr.io/andromeda-288104/testing30:master-f72f761bf4530984d48adaf04dd2904b73d96682
+        image: gcr.io/andromeda-288104/testing30:master-0de37e7812aed05d4de7b46471601eb3f5aec863
         ports:
         - containerPort: 3000
 ---
