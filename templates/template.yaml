@@ -24,7 +24,7 @@ metadata:
   annotations:
     ozone-in2tive-ai/application: 62da4503a8657d25301f575f
 spec:
-  replicas: 3
+  replicas: 10
   selector:
     matchLabels:
       app: ozone-argo-101
